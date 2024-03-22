@@ -21,8 +21,9 @@
 // Error free
 
 class Person {
-  constructor() {
+  constructor(name) {
     this.species = "homo sapiens";
+    this.name = name;
   }
   eat() {
     console.log("eat");
@@ -31,10 +32,11 @@ class Person {
 
 class Engineer extends Person {
   constructor(branch) {
-    super(); // to invoke parent class constructor
+    super(name); // to invoke parent class constructor
     this.branch = branch;
   }
   work() {
+    super.eat();
     console.log("Solve Problem, Build Something");
   }
 }
