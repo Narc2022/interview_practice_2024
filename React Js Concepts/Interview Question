@@ -42,3 +42,20 @@
 
 15. Can you explain the concept of reconciliation in React?
     Answer: Reconciliation is the process of comparing the Virtual DOM with the real DOM and updating the latter efficiently.
+
+16. How react is better that other library?
+    Answer: It's used for its component-based architecture, efficient update mechanisms, and ease of maintenance.
+
+17. Difference between class component and functional component?
+    Answer: 
+    1. Class components are defined using ES6 classes.
+    1.Functional components are defined using functions.
+    2.Class components can hold and manage local state using this.state.
+    2.Functional components can use hooks, such as useState and useEffect, to manage state and side effects.
+    3.The this keyword is used to access props, state, and other methods within the component.
+    3.Functional components do not use the this keyword, making them simpler and less error-prone in some cases.
+
+
+
+
+
