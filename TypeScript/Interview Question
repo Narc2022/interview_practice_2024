@@ -1,0 +1,59 @@
+1. What is TypeScript and why is it used?
+   Answer: TypeScript is a superset of JavaScript that adds optional static typing and other features. It's used for large and complex applications to improve maintainability, scalability, and error prevention.
+
+2. How does TypeScript differ from JavaScript?
+   Answer: TypeScript adds static typing, interfaces, enums, and other features to JavaScript, making it a more robust and maintainable language.
+
+3. What are the benefits of using TypeScript?
+   Answer: Benefits include better code maintainability, scalability, and error prevention, as well as improved tooling and compatibility with existing JavaScript code.
+
+4. What is the any type in TypeScript and when should it be used?
+   Answer: The any type represents any value, and should be used sparingly, as it defeats the purpose of type checking. Use it when working with legacy code or third-party libraries that don't have type definitions.
+
+5. How do you declare variables and functions in TypeScript?
+   Answer: Use the let and function keywords, respectively, with optional type annotations.
+
+6. What is a TypeScript interface and how is it used?
+   Answer: An interface defines a blueprint for objects, and is used for type checking. It specifies the shape of an object, including properties, methods, and their types.
+
+7. How do you create a class in TypeScript?
+   Answer: Use the class keyword, similar to JavaScript, with optional type annotations and inheritance.
+
+8. What is inheritance in TypeScript and how is it implemented?
+   Answer: Inheritance is implemented using the extends keyword, allowing classes to inherit properties and behavior from parent classes.
+
+9. How do you use generics in TypeScript?
+   Answer: Generics allow reusable functions and classes with type parameters. Use the <> syntax to define generic types.
+
+10. What is the difference between null and undefined in TypeScript?
+    Answer: null represents the intentional absence of any object value, while undefined represents an uninitialized variable.
+
+11. How do you handle errors and exceptions in TypeScript?
+    Answer: Use try-catch blocks and the Error type to handle errors and exceptions.
+
+12. Can you explain the concept of type inference in TypeScript?
+    Answer: Type inference automatically assigns types to variables based on their initial value, without needing explicit type annotations.
+
+13. How do you use the type keyword in TypeScript?
+    Answer: The type keyword creates a new type alias, allowing you to define a new name for an existing type.
+
+14. What is the difference between interface and type in TypeScript?
+    Answer: interface defines a new type, while type creates an alias for an existing type.
+
+15. How do you use enums in TypeScript?
+    Answer: Enums represent a set of named values, and can be used to define a set of constants.
+
+16. Can you explain the concept of modules and imports in TypeScript?
+    Answer: Modules and imports allow organizing and reusing code, with support for ES6 modules and CommonJS modules.
+
+17. How do you use the namespace keyword in TypeScript?
+    Answer: The namespace keyword creates a container for related objects and types, similar to modules.
+
+18. What is the difference between declare and const in TypeScript?
+    Answer: declare is used for ambient declarations, while const declares a constant value.
+
+19. How do you use the readonly keyword in TypeScript?
+    Answer: readonly prevents assigning a new value to a property, making it read-only.
+
+20. Can you explain the concept of intersection types in TypeScript?
+    Answer: Intersection types combine multiple types into one, allowing you to create complex types from simpler ones.

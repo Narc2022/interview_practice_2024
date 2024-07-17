@@ -1,0 +1,49 @@
+1. What is Redux and why is it used?
+   Answer: Redux is a state management library for JavaScript applications. It helps manage global state by providing a single source of truth for state, making it easier to debug and scale applications.
+
+2. What are the core concepts of Redux (store, reducers, actions, dispatch)?
+   Answer:
+
+- Store: Holds the application's state.
+- Reducers: Pure functions that update the state.
+- Actions: Payloads that trigger state changes.
+- Dispatch: A function that sends actions to the reducer.
+
+1. How does the data flow in a Redux application?
+   Answer: Components dispatch actions, which are sent to the reducer, which updates the state, and the store notifies connected components of the update.
+
+2. What is the role of the reducer in Redux?
+   Answer: The reducer takes the current state and an action, and returns a new state.
+
+3. How do you connect a React component to a Redux store?
+   Answer: Using the connect function from the react-redux library.
+
+4. What is the difference between mapStateToProps and mapDispatchToProps?
+   Answer: mapStateToProps maps state to props, while mapDispatchToProps maps dispatch to props.
+
+5. How do you handle side effects in Redux (e.g., API calls)?
+   Answer: Using middleware like Redux thunk or Redux saga.
+
+6. What is the purpose of the Redux thunk middleware?
+   Answer: It allows dispatching functions (like API calls) instead of just actions.
+
+7. How do you implement authentication and authorization in Redux?
+   Answer: By storing auth data in the state and using it to conditionally render components.
+
+8. Can you explain the concept of higher-order reducers in Redux?
+   Answer: Higher-order reducers wrap existing reducers to extend or modify their behavior.
+
+9. How do you debug a Redux application?
+   Answer: Using the Redux DevTools extension or logging actions and state changes.
+
+10. What are some best practices for organizing Redux code and files?
+    Answer: Grouping related code into folders (e.g., actions, reducers, components).
+
+11. Can you explain the difference between Redux and MobX?
+    Answer: Redux uses a single, immutable state tree, while MobX uses observable, reactive state.
+
+12. How do you optimize the performance of a Redux application?
+    Answer: By using techniques like memoization, shouldComponentUpdate, and minimizing state changes.
+
+13. Can you walk me through an example of using Redux to manage state in a simple application?
+    Answer: (Example: A counter app with a reducer, actions, and connected components)

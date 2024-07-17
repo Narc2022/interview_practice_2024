@@ -1,0 +1,44 @@
+1. What is React and why is it used?
+   Answer: React is a JavaScript library for building user interfaces. It's used for its component-based architecture, efficient update mechanisms, and ease of maintenance.
+
+2. What are the key features of React?
+   Answer: Components, JSX, Virtual DOM, One-way data binding, and Declarative coding style.
+
+3. What is the Virtual DOM and how does it work?
+   Answer: The Virtual DOM is a lightweight in-memory representation of the real DOM. React updates the Virtual DOM, then efficiently updates the real DOM by comparing the two and only making necessary changes.
+
+4. What is JSX and how does it differ from HTML?
+   Answer: JSX is a syntax extension for JavaScript that allows HTML-like code. It differs from HTML in that it's JavaScript, not a markup language, and allows embedding JavaScript expressions and variables.
+
+5. What is a stateful vs stateless component?
+   Answer: Stateful components maintain their own state, while stateless components rely on props from their parents.
+
+6. How do you handle state changes in React?
+   Answer: Use the setState method or React Hooks like useState and useReducer.
+
+7. What is the difference between props and state?
+   Answer: Props are immutable and passed from parents, while state is owned and updated by the component itself.
+
+8. How do you pass data from a parent to a child component?
+   Answer: Use props to pass data from parent to child.
+
+9. What is a higher-order component (HOC)?
+   Answer: A HOC is a function that takes a component as an argument and returns a new component with additional props or behavior.
+
+10. How do you optimize the performance of a React application?
+    Answer: Optimize performance by minimizing state changes, using shouldComponentUpdate, and leveraging memoization.
+
+11. What is React Hooks and how do you use them?
+    Answer: React Hooks provide a way to use state and other React features without writing a class component. Use useState for state, useEffect for side effects, and useContext for context API.
+
+12. How do you handle side effects in React (e.g., API calls)?
+    Answer: Use the useEffect hook to handle side effects, or libraries like React Query for API calls.
+
+13. What is the difference between controlled and uncontrolled components?
+    Answer: Controlled components are form elements managed by React, while uncontrolled components are managed by the DOM.
+
+14. How do you implement routing in a React application?
+    Answer: Use a library like React Router for client-side routing.
+
+15. Can you explain the concept of reconciliation in React?
+    Answer: Reconciliation is the process of comparing the Virtual DOM with the real DOM and updating the latter efficiently.
