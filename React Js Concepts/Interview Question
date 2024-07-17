@@ -55,6 +55,8 @@
     3.The this keyword is used to access props, state, and other methods within the component.
     3.Functional components do not use the this keyword, making them simpler and less error-prone in some cases.
 
+18. what are life cycle methods?
+
 
 
 
