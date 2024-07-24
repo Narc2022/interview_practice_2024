@@ -1,11 +1,11 @@
 1. What is React and why is it used?
-   Answer: React is a JavaScript library for building user interfaces. It's used for its component-based architecture, efficient update mechanisms, and ease of maintenance.
+   Answer: React is a JavaScript library for building user interfaces. It is use to build single page web applications. React allows us to create reusable UI component.
 
 2. What are the key features of React?
    Answer: Components, JSX, Virtual DOM, One-way data binding, and Declarative coding style.
 
-3. What is the Virtual DOM and how does it work?
-   Answer: The Virtual DOM is a lightweight in-memory representation of the real DOM. React updates the Virtual DOM, then efficiently updates the real DOM by comparing the two and only making necessary changes.
+3. what is virtual dom and reconciliation?
+   Answer: The virtual DOM (VDOM) is a programming concept where an ideal, or “virtual”, representation of a UI is kept in memory and synced with the “real” DOM by a library such as ReactDOM. This process is called reconciliation.
 
 4. What is JSX and how does it differ from HTML?
    Answer: JSX is a syntax extension for JavaScript that allows HTML-like code. It differs from HTML in that it's JavaScript, not a markup language, and allows embedding JavaScript expressions and variables.
