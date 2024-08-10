@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ThrottledComponent from "./ThrottledComponent";
 
 export default function App() {
   const [input, setInput] = useState("");
@@ -28,7 +29,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <input
+      {/* <input
         type="text"
         value={input}
         onChange={handleChange}
@@ -38,7 +39,8 @@ export default function App() {
       <p>Typed</p>
       <p>{input}</p>
       <p>Saved To DB</p>
-      <p>{savetoDB}</p>
+      <p>{savetoDB}</p> */}
+      <ThrottledComponent />
     </div>
   );
 }
