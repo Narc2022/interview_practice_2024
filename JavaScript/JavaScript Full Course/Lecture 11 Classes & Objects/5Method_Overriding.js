@@ -32,3 +32,4 @@ class Doctor extends Person {
 
 let sachinObj = new Engineer();
 let saviObj = new Doctor();
+saviObj.work();

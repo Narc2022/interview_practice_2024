@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      let data = [60, 30, 10, 67, 40];
+      let newEl = 24;
+      let inAt = 4;
+      function insertEle(ele, index) {
+        for (let i = index; i < data.length; i++) {
+          let temp = data[i];
+          data[i] = ele;
+          data[i + 1] = temp;
+        }
+        console.log(data);
+      }
+      insertEle(newEl, inAt);
+    </script>
+  </head>
+  <body></body>
+</html>
